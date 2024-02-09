@@ -1,0 +1,85 @@
+:root{
+    --black: black;
+    --background-color: #141414;
+    --main-color: #ffff;
+    --on-hov: red;
+    --main-font: Poppins;
+  }
+  
+.main{
+    height: 720px;
+    z-index: 1;
+    background-color: var(--background-color);
+    background-image: url(../../assets/bg-imagehero.png);
+
+}
+
+.child{
+height: 547px;
+border-radius: 10px;
+border: 0.5px solid rgba(255, 255, 255, 93);
+background: rgba(37, 37, 37, 0.25);
+backdrop-filter: blur(8.399999618530273px);
+}
+
+.child{
+  margin: 86px 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.heading001{
+color: #FFF;
+font-size: 100px;
+font-weight: 800;
+letter-spacing: -8.418px;
+margin-bottom: -30px;
+}
+
+.subheading{
+  margin-top: 0px;
+  color: #FFF;
+  font-weight: 700;
+text-transform: uppercase;
+font-size: 20px;
+
+}
+.childupload{
+  width: 425px;
+  height: 117px;
+  border-radius: 4.276px;
+border: 0.855px solid rgba(255, 255, 255, 0.10);
+background: rgba(255, 255, 255, 0.84);
+backdrop-filter: blur(0px);
+display: flex;
+gap: 1rem;
+align-items: center;
+justify-content: center;
+}
+
+.left>span:nth-child(1){
+  color: #000;
+font-size: 27.364px;
+font-weight: 800;
+}
+
+.left>span:nth-child(2){
+  color: #000;
+font-size: 13.682px;
+font-weight: 400;
+}
+
+.review{
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.review>span{
+  color: #FFF;
+font-size: 15.939px;
+font-weight: 500;
+text-transform: uppercase;
+}

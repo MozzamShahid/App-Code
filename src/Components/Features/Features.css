@@ -1,0 +1,52 @@
+.main3{
+    height: 500px;
+    background-image: url(../../assets/map1.png);
+
+}
+
+.child3{
+    justify-content: center;
+    padding: 80px 100px;
+    gap:1rem;
+}
+
+.heading{
+color: #FFF;
+font-size: 48px;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -1.92px;
+}
+
+.buttons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main-btn {
+    display: inline-flex; /* Use inline-flex to make it adjust to content width */
+    padding: 12px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(0px);
+  }
+
+.main-btn>span{
+    color: rgba(255, 255, 255, 0.93);
+font-size: 22px;
+font-weight: 500;
+letter-spacing: -0.88px;
+}
+
+.circle{
+margin-top: -150px;
+width: 348px;
+height: 348px;
+border-radius: 348px;
+background: linear-gradient(180deg, rgba(219, 252, 138, 0.30) 42%, rgba(0, 255, 163, 0.30) 99.99%);
+filter: blur(56.14218521118164px);
+}

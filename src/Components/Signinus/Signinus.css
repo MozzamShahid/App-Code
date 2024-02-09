@@ -1,0 +1,110 @@
+.signm{
+    height: 600px;
+}
+
+.sign-h{
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.sign-h{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mainbox-sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10%;
+
+}
+
+
+input, .inputstyle{
+    border-radius: 5.478px;
+border: 1.096px solid rgba(255, 255, 255, 0.17);
+background: rgba(255, 255, 255, 0.12);
+backdrop-filter: blur(0px);
+}
+
+input, .inputstyle{
+    padding:13px 19px
+}
+
+input, .inputstyle{
+color: rgba(255, 255, 255, 0.93);
+font-size: 22px;
+font-weight: 500;
+letter-spacing: -0.964px;
+}
+
+.firstlastname{
+    display: flex;
+    gap: 3rem;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.signup{
+border-radius: 5.478px;
+border: 1.096px solid rgba(255, 255, 255, 0.17);
+background: #FC0;
+backdrop-filter: blur(0px);
+}
+
+.signup{
+    display: flex;
+    width: 589px;
+    height: 55px;
+    padding: 13.147px 19.721px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10.956px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, 0.93);
+
+font-size: 24.104px;
+font-weight: 700;
+letter-spacing: -0.964px;
+}
+
+.Nwsi-image{
+   margin-top: 80%;
+}
+
+.circle011{
+    position: absolute;
+    z-index: -3; 
+    margin-top: -50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 348px;
+    background: linear-gradient(180deg, rgba(219, 252, 138, 0.30) 42%, rgba(0, 255, 163, 0.30) 99.99%);
+    filter: blur(56.14218521118164px);
+    }
+
+.styleforsignin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.signin-link{
+color: rgba(255, 255, 255, 0.93);
+font-size: 24.104px;
+font-weight: 500;
+letter-spacing: -0.964px;
+text-decoration-line: underline;
+}

@@ -1,0 +1,102 @@
+:root{
+    --black: black;
+    --background-color: #141414;
+    --main-color: #ffff;
+    --on-hov: #FFCC00;
+    --main-font: Poppins;
+}
+
+.header{
+    background-color: var(--background-color);
+    height: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 280px;
+    padding: 14px 50px;
+}
+.header{
+    justify-content: center;
+}
+.logo{
+    height: 50px;
+    align-items: center;
+}
+
+.menu > ul{
+display: flex;
+flex-direction: row;
+gap: 15px;
+list-style: none;
+}
+.menu > ul > li{
+    cursor: pointer;
+    color: #fff !important;
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+
+}
+.menu > ul > li >a:hover{
+    color: #FFCC00;
+
+
+}
+.menu > ul > li > a {
+    color: #fff ;
+    text-decoration: none;
+
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right>img{
+    width: 70px;
+    height: 70px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-color); /* Make sure to define --main-color */
+    justify-content: center;
+    align-items: left;
+    margin-right: 0px; /* Adjust the margin as needed */
+}
+
+.maintext {
+    margin-bottom: 0px; /* Adjust the margin as needed */
+}
+
+.subheading01 {
+    margin-top: 10px;
+    margin-bottom: 5px; /* Adjust the margin as needed */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0px;
+    margin-top: -8px;
+
+}
+
+.sidebyside ul {
+    list-style: none;
+    padding: 0;
+    margin-top: -10px;
+}
+
+.sidebyside li {
+    display: inline-block;
+    margin-right: 5px; /* Adjust the margin as needed */
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.sidebyside > ul > li > a{
+    color: #fff ;
+    text-decoration: none;
+}

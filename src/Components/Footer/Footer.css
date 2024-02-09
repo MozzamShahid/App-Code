@@ -1,0 +1,22 @@
+.footer{
+    height: 100px;
+    padding: 5px 100px;
+    background-color:#141414;
+    z-index: 3;
+    
+}
+.footerchild{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Logo{
+margin-top: 20px;
+}

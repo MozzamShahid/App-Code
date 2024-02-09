@@ -1,0 +1,97 @@
+.contactm{
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.contacth{
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 52px;
+    font-weight: 800;
+    letter-spacing: -2px;
+}
+
+.contacth{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+
+}
+
+input, .inputstyle{
+    border-radius: 5.478px;
+border: 1.096px solid rgba(255, 255, 255, 0.17);
+background: rgba(255, 255, 255, 0.12);
+backdrop-filter: blur(0px);
+}
+
+input, .inputstyle{
+    padding:13px 19px
+}
+
+input, .inputstyle{
+color: rgba(255, 255, 255, 0.93);
+font-size: 22px;
+font-weight: 500;
+letter-spacing: -0.964px;
+}
+
+.firstlastname{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.submit{
+    border-radius: 5.478px;
+border: 1.096px solid rgba(255, 255, 255, 0.17);
+background: #FC0;
+backdrop-filter: blur(0px);
+}
+.submit{
+display: flex;
+width: 204px;
+height: 53px;
+padding: 13.147px 19.721px;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 10.956px;
+flex-shrink: 0;
+flex-wrap: wrap;
+color: rgba(255, 255, 255, 0.93);
+font-family: Poppins;
+font-size: 24.104px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.964px;
+}
+
+.Nw-image{
+margin-top: -20%;
+}
+
+.circle01{
+    position: absolute;
+    z-index: -3; 
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 348px;
+    background: linear-gradient(180deg, rgba(219, 252, 138, 0.30) 42%, rgba(0, 255, 163, 0.30) 99.99%);
+    filter: blur(56.14218521118164px);
+    }
