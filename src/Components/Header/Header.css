@@ -20,7 +20,7 @@
     justify-content: center;
 }
 .logo{
-    height: 50px;
+    height: 60px;
     align-items: center;
 }
 
@@ -62,6 +62,7 @@ font-weight: 500;
 .left {
     display: flex;
     flex-direction: column;
+    gap: 5px;
     color: var(--main-color); /* Make sure to define --main-color */
     justify-content: center;
     align-items: left;
